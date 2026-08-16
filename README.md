@@ -27,7 +27,7 @@ cp .env.example .env
 Open `.env` and fill in your keys:
 
 ```
-STRIX_LLM=gemini/gemini-2.5-flash
+STRIX_LLM=gemini/gemini-3.6-flash
 LLM_API_KEY=your-key-here
 GEMINI_API_KEY=your-gemini-key-here
 ```

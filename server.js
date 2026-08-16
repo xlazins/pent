@@ -130,7 +130,7 @@ Skip anything that isn't a real, validated finding. Be direct and concise, not a
 Report:
 ${rawReport.slice(0, 30000)}`;
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GEMINI_API_KEY}`;
 
   const response = await fetch(url, {
     method: 'POST',
